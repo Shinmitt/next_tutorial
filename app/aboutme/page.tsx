@@ -53,7 +53,7 @@ function AboutMe() {
                     {post.title}
                   </a>
                 </h3>
-                <p className="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">
+                <p className="mt-5 line-clamp-6 text-sm leading-6 text-gray-600">
                   {post.description}
                 </p>
               </div>
