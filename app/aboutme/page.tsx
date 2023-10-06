@@ -3,7 +3,7 @@ const posts = [
     id: 1,
     title: '',
     href: '#',
-    description: '研修なう',
+    description: '研修中',
     date: 'date of date: May 10 ,1999',
     datetime: '2020-03-16',
     category: { title: '男', href: '#' },
@@ -11,8 +11,7 @@ const posts = [
       name: '光永慎',
       role: 'ドコモcs 東京支店　企画総務部',
       href: '#',
-      imageUrl:
-        'https://scontent-nrt1-1.cdninstagram.com/v/t51.2885-19/338456968_574040998031439_5058197959390537795_n.jpg?stp=dst-jpg_s320x320&_nc_ht=scontent-nrt1-1.cdninstagram.com&_nc_cat=103&_nc_ohc=nsmCRgbtwUwAX9j9M48&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfAVV9gdSEHUc44OtEq3H-WGmvij26kvzcie0occ8dyUrQ&oe=65199CCF&_nc_sid=8b3546',
+      imageUrl: '/images/IMG_9306.JPG',
     },
   },
 ];
@@ -60,7 +59,7 @@ function AboutMe() {
               <div className="relative mt-8 flex items-center gap-x-4">
                 <img
                   src={post.author.imageUrl}
-                  alt=""
+                  alt="Author Image"
                   className="h-10 w-10 rounded-full bg-gray-50"
                 />
                 <div className="text-sm leading-6">
