@@ -3,7 +3,8 @@ const posts = [
     id: 1,
     title: '',
     href: '#',
-    description: '研修中',
+    description:
+      '中学から大学まで部活動で10年間バスケットボールに励み、その中で培った向上心と思考力、チームワーク力が強み。それらを生かして、社会人１年目として現在は通信業界の課題解決に向けて営業に励む。ITに関する知見を深めるため、技術分野にも挑戦中。',
     date: 'date of date: May 10 ,1999',
     datetime: '2020-03-16',
     category: { title: '男', href: '#' },
